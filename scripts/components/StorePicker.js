@@ -5,7 +5,7 @@ import React from 'react';
   This will let us make a Store Picker
 */
 
-import {Navigation} from 'react-router';
+import {History} from 'react-router';
 import h from '../helpers';
 import reactMixin from 'react-mixin';
 import autobind from 'autobind-decorator';
@@ -32,6 +32,6 @@ class StorePicker extends React.Component {
   }
 };
 
-reactMixin.onClass(StorePicker, Navigation);
+reactMixin.onClass(StorePicker, History);
 
 export default StorePicker;
